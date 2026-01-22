@@ -1,0 +1,16 @@
+echo "mysql_data/" >> .gitignore
+```
+
+Atau buka file `.gitignore` dan tambahkan:
+```
+mysql_data/
+laravel_app/vendor/
+laravel_app/node_modules/
+laravel_app/.env
+*.sock
+```
+
+## 2. **Error saat `git push`**
+```
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mzaedan/laravel-docker.git'
